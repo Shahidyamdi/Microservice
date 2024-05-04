@@ -1,8 +1,9 @@
 package net.javaguides.springboot.service;
 
-import java.util.List;
-
 import net.javaguides.springboot.dto.UserDto;
+import net.javaguides.springboot.entity.User;
+
+import java.util.List;
 
 public interface UserService {
     UserDto createUser(UserDto user);
